@@ -62,7 +62,7 @@ function SearchBar(props) {
           />
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-4"></div>
         <button
           className="btn btn-primary col-4"

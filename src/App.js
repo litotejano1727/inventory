@@ -12,7 +12,7 @@ function App() {
   };
   const addItemToData = (item) => {
     let items = data["items"];
-    item.id = items.length;
+    item.id = items.length + 1;
     items.push(item);
     setData({ items: items });
     // console.log(data);
